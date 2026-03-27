@@ -1,38 +1,24 @@
-```markdown
-# sean.sys
+### Sean | Mnemox
 
-> I don't write code — my AI agents do.
+CEO @ [Mnemox AI](https://mnemox.ai). I build memory and compliance infrastructure for AI trading agents.
 
-Building systems where AI agents autonomously ship products, trade markets, and run businesses.  
-One person. Multiple agents. Zero excuses.
+#### What I'm shipping
 
-### ▸ Active Processes
+**[TradeMemory Protocol](https://github.com/mnemox-ai/tradememory-protocol)** — Decision audit trail + persistent memory for AI trading agents. SHA-256 tamper detection, MiFID II / EU AI Act aligned. 1,233 tests, 17 MCP tools, on PyPI.
 
-| Process | Description | Status |
-|---------|-------------|--------|
-| **NG_Gold** | Institutional-grade quant trading system. 3 FSM strategies + AI signal filter for XAUUSD | `SHADOW MODE` |
-| **tradememory-protocol** | MCP server for AI trading memory — 3-layer memory + reflection engine | `ALPHA` |
-| **idea-reality-mcp** | MCP server that reality-checks your AI project idea against GitHub & HN | `v0.1.0` |
-| **awesome-mcp-servers** | Curated list of Model Context Protocol servers | `MAINTAINED` |
-| **覓食 AI** | AI food recommendation engine. Built by AI Agent in 6h | `OPEN SOURCE` |
-| **Lash Brand** | Glue-free cluster eyelash brand, Taiwan market | `BUILDING` |
+**[Idea Reality](https://github.com/mnemox-ai/idea-reality-mcp)** — Pre-build reality check for AI coding agents. Scans GitHub, HN, npm, PyPI, Product Hunt before you write a line of code. 277 tests, on PyPI.
 
-### ▸ Agent Roster
+**[NG_Gold](https://github.com/zychenpeng/NG_Gold)** — XAUUSD quantitative trading system on MetaTrader 5. Three strategies (VolBreakout, IntradayMomentum, PullbackEntry), ATR-based risk control, decision logging to JSONL.
 
-- **毛毛 (MaoMao)** — Product Developer. Built 覓食 AI from scratch in 6 hours.
-- **小柯 (XiaoKe)** — Infrastructure & DevOps. Keeps everything running.
-- **CIO (Claude Opus)** — Architecture advisor. The one who says "don't do that."
-- **Sean** — The Operator. Sets direction, makes final calls.
+#### Tech
 
-### ▸ Tech
+`Python` `MQL5` `FastAPI` `MCP` `Claude API` `MetaTrader 5` `TimescaleDB` `asyncio`
 
-`Python` `FastAPI` `MQL5` `MetaTrader 5` `ONNX` `Claude API` `MCP` `Playwright` `asyncio` `LINE Bot`
+#### Numbers
 
-### ▸ Philosophy
+| | Stars | Tests | PyPI |
+|---|---|---|---|
+| tradememory-protocol | 299 | 1,233 | [![PyPI](https://img.shields.io/pypi/v/tradememory-protocol?style=flat-square)](https://pypi.org/project/tradememory-protocol/) |
+| idea-reality-mcp | 437 | 277 | [![PyPI](https://img.shields.io/pypi/v/idea-reality-mcp?style=flat-square)](https://pypi.org/project/idea-reality-mcp/) |
 
-*"AI agents can ship a product in 6 hours. But they can't tell you if anyone wants it. That's still a human job."*
-
----
-
-📍 Taipei, Taiwan · system uptime: ∞
-```
+Open source at [@mnemox-ai](https://github.com/mnemox-ai)
